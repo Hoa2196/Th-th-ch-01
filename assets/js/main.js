@@ -223,10 +223,10 @@ cssTimelineHeading();
 function cssTimelineLine() {
     let timelineLine = document.querySelector('.timeline-line');
     timelineLine.style.position = 'absolute';
-    timelineLine.style.height = '95%';
+    timelineLine.style.height = '90%';
     timelineLine.style.width = '4px';
     timelineLine.style.left = '50%';
-    // timelineLine.style.top = '20%';
+    timelineLine.style.top = '200px';
     timelineLine.style.backgroundColor = 'orangered';
     timelineLine.style.transform = 'translateX(-50%)';
 }
