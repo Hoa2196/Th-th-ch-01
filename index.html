@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ecb8cffa0f.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Thử thách 01- HTML, CSS, JS</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+
+            <div id="header">
+                <ul id="header-menu">
+                    <li class="header-menu__item">
+                        <a href="#" class="header-menu__item--link">Trang chủ</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#info" class="header-menu__item--link">Giới thiệu</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#company" class="header-menu__item--link">Kỹ năng đạt được</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#timeline" class="header-menu__item--link">Timeline</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#footer" class="header-menu__item--link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="main">
+                <div id="title">
+                    <div id="title-image">
+                        <div class="title-image__img">
+                            <img srcset="./assets/images/avatar.jpg 2x" alt="" id="title-image__avatar">
+                        </div>
+                        <div id="title-image__text">
+                            <h2>NGUYỄN THỊ HOA</h2>
+                            <p>21/03/1996</p>
+                            <p>Front-end Developer Intern</p>
+                        </div>
+                    </div>
+
+                    <div id="title-info">
+                        <h1 id="title-info__heading">Xin chào, Tôi là Hoa</h1>
+                        <p class="title-info__text1">Dưới đây là portfolio và thông tin quá trình thực tập của tôi tại <strong>I&E
+                                Vietnam</strong></p>
+                        <p class="title-info__text2"><i>"I&E Vietnam là công ty thành viên của Tập đoàn DP&C hoạt động
+                                trong lĩnh vực giải pháp công nghệ số,
+                                I&E mang trong mình sứ mệnh xây dựng hệ thống công nghệ lõi đưa DP&C trở thành một trong
+                                những đơn vị
+                                tiên phong hoạt động trên nền tảng công nghệ số"</i></p>
+                        <div class="title-info__btn">                   
+                            <p><a href="#info-text__heading" class="title-info__btn--text">Portfolio</a></p>
+                            <p><a href="#timeline-heading" class="title-info__btn--text">Timeline</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="info">
+                    <div id="info-text">
+                        <div id="info-text__heading">
+                            <h2>Giới thiệu</h2>
+                        </div>
+                        <div id="info-text__fav">
+                            <p>Tôi tên là Nguyễn Thị Hoa, sinh ngày 21/03/96 tại Thường Tín, Hà Nội.
+                                Là một con người luôn thích tìm tòi và học hỏi những điều mới, khi bắt đầu tìm hiểu về
+                                lập trình,
+                                tôi đã tìm thấy hướng đi mới cho bản thân.
+                                Sau một thời gian học hỏi không ngừng, hiện nay tôi đang giữ chức vụ Front-end Developer
+                                Intern tại I&E Vietnam.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="skill">
+                    <div id="skill-text__heading">
+                        <h2>Kỹ năng chuyên môn</h2>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-card" id="skill-card1">
+                            <div class="skill-card__box">
+                                <div class="skill-card__box--percent">
+                                    <svg class="skill-svg">
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle1"></circle>
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle2"></circle>
+                                    </svg>
+                                    <div class="skill-card__box--number">
+                                        <h2 class="number-text" id="number-text1">85%</h2>
+                                    </div>
+                                </div>
+                                <h2 class="skill-card__text" id="skill-card__text1">HTML</h2>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" id="skill-card2">
+                            <div class="skill-card__box">
+                                <div class="skill-card__box--percent">
+                                    <svg class="skill-svg">
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle3"></circle>
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle4"></circle>
+                                    </svg>
+                                    <div class="skill-card__box--number">
+                                        <h2 class="number-text" id="number-text2">75%</h2>
+                                    </div>
+                                </div>
+                                <h2 class="skill-card__text " id="skill-card__text2">CSS</h2>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" id="skill-card3">
+                            <div class="skill-card__box">
+                                <div class="skill-card__box--percent">
+                                    <svg class="skill-svg">
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle5"></circle>
+                                        <circle cx="70" cy="70" r="70" class="card-circle" id="card-circle6"></circle>
+                                    </svg>
+                                    <div class="skill-card__box--number">
+                                        <h2 class="number-text" id="number-text3">45%</h2>
+                                    </div>
+                                </div>
+                                <h2 class="skill-card__text" id="skill-card__text3">Javascript</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="company">
+                    <div class="company-info">
+                        <div class="company-logo">
+                            <img srcset="./assets/images/logo.png 2x" alt="" id="company-logo__img">
+                        </div>
+                        <h2 style="color: #fff">Kỹ năng mong muốn đạt được sau thời gian thực tập</h2>
+
+                        <div class="company-text">
+                            <p>Thực tập sinh tại I&E Vietnam có cơ hội tiếp xúc tìm hiểu sâu về văn hóa, cách thức
+                                làm việc, môi trường công việc và các Dự án, Đối tác tại Công ty</p>
+                            <p>Thực tập sinh hiểu sâu về ý nghĩa, giá trị của việc Đào tạo tại Công ty. Công ty tập
+                                trung đào tạo,
+                                nghiên cứu và phát triển năng lực riêng cho mỗi TTS nhằm phát huy tối đa những ưu điểm
+                                và sửa đổi nhược điểm
+                                của từng TTS</p>
+                            <p>
+                                Các thử thách được thiết kế độ khó khác nhau yêu cầu tư duy và sự kiên trì khác nhau
+                                để hoàn thiện; từ đó Công ty có những góc nhìn đầy đủ về TTS để đưa ra những định hướng
+                                phù hợp cho thời gian tiếp theo
+                            </p>
+                            <p>
+                                Với mục tiêu phát triển toàn diện các kỹ năng,
+                                I&E Vietnam đào tạo 4 kỹ năng chính: Năng lực tư duy,
+                                kỹ năng chuyên môn, kỹ năng làm mềm và kỹ năng làm việc.
+                                Tôi mong rằng sẽ đạt được tất cả những kỹ năng này sau thời gian
+                                thực tâp tại I&E Vietnam
+                            </p>
+                        </div>
+
+                        <div id="company-card">
+                            <div class="company-card__item" id="company-card__item1">
+                                <div class="company-card__text">
+                                    <h3>NĂNG LỰC TƯ DUY</h3>
+                                    <p>Tư duy logic</p>
+                                    <p>Tư duy đa chiều</p>
+                                    <p>Tư duy thiết kế</p>
+                                    <p>Tư duy sáng tạo</p>
+                                    <p>Tư duy tổng thể</p>
+                                </div>
+                                <div class="company-btn">
+                                    <p class="company-btn__text card1-btn">Xem chi tiết</p>
+                                </div>
+                            </div>
+
+                            <div class="company-card__item" id="company-card__item2">
+                                <div class="company-card__text">
+                                    <h3>KỸ NĂNG CHUYÊN MÔN</h3>
+                                    <p>HTML, CSS</p>
+                                    <p>Javascript</p>
+                                    <p>INEVO</p>
+                                    <p>Hoàn thiện kỹ năng</p>
+                                </div>
+                                <div class="company-btn">
+                                    <p class="company-btn__text card2-btn">Xem chi tiết</p>
+                                </div>
+                            </div>
+
+                            <div class="company-card__item" id="company-card__item3">
+                                <div class="company-card__text">
+                                    <h3>PHÁT TRIỂN KỸ NĂNG MỀM</h3>
+                                    <p>Tỉ mỉ, chỉn chu</p>
+                                    <p>Lắng nghe, cầu thị</p>
+                                    <p>Giao tiếp nội bộ</p>
+                                    <p>Thuyết trình</p>
+                                </div>
+                                <div class="company-btn">
+                                    <p class="company-btn__text card3-btn">Xem chi tiết</p>
+                                </div>
+                            </div>
+
+
+                            <div class="company-card__item" id="company-card__item3">
+                                <div class="company-card__text">
+                                    <h3>KỸ NĂNG CHUNG TRONG CÔNG VIỆC</h3>
+                                    <p>Phân tích vấn đề</p>
+                                    <p>Lập kế hoạch</p>
+                                    <p>Quản lý thời gian</p>
+                                    <p>Tổng hợp</p>
+                                    <p>Chịu được áp lực</p>
+                                </div>
+                                <div class="company-btn">
+                                    <p class="company-btn__text card4-btn">Xem chi tiết</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="timeline">
+            </div>
+
+            <div id="footer">
+                <div id="footer-info">
+                    <div id="footer-text">
+                        <p>Phone: <strong>0369.271.701</strong></p>
+                        <p>Email: Nguyenhoa21031996@gmail.com</p>
+                        <p>Adress: Bạch Liên, Liên Phương, Thường Tín, Hà Nội</p>
+                    </div>
+                    <div id="footer-icon">
+                        <div id="footer-icon__fb" class="icon">
+                            <a href="https://www.facebook.com/hoa.21.03.96" target="_blank">
+                                <img srcset="./assets/images/fb.png 2x" class="icon_image">
+                            </a>
+                        </div>
+                        <div id="footer-icon__ins" class="icon">
+                            <a href="#">
+                                <img srcset="./assets/images/ins.png 2x" class="icon_image">
+                            </a>
+                        </div>
+                        <div id="footer-icon__tiktok" class="icon">
+                            <a href="#">
+                                <img srcset="./assets/images/tiktok.png 2x" class="icon_image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="js-card" id="card-1">
+                    <div class="card-info">
+                        <div class="card-info__content">
+                            <img srcset="./assets/images/close_icon.png 2x" alt="" class="card-1close icon__close">
+                            <div class="js-card__text1">
+                                <div class="card-info__title">
+                                    <h2>NĂNG LỰC TƯ DUY</h2>
+                                    <p>Định hình được về tư duy cho TTS, đâu là ưu điểm và nhược điểm về mặt tư duy đặc
+                                        biệt là
+                                        về tư duy logic và đa chiều. Rèn luyện khả năng tư duy logic và trao đổi thông
+                                        tin qua các thử thách</p>
+                                </div>
+                                <div class="card-info__text">
+                                    <h3>Tư duy logic</h3>
+                                    <p>Xác định được logic vấn đề</p>
+
+                                    <h3>Tư duy đa chiều</h3>
+                                    <p>Tư duy dưới nhiều góc độ để hiểu được vấn đề ở mức cơ bản, từ đó có định hướng
+                                        công việc phù hợp</p>
+
+                                    <h3>Tư duy thiết kế</h3>
+                                    <p>Lấy con người làm trung tâm, đề cao trải nghiệm của người dùng, có minh họa trực
+                                        quan và đề cao trực giác một cách có hệ thống</p>
+
+                                    <h3>Tư duy tổng thể</h3>
+                                    <p>Khái quát hóa vấn đề một cách tổng thể để nhìn nhận được sự tương quan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="js-card" id="card-2">
+                    <div class="card-info">
+                        <div class="card-info__content">
+                            <img srcset="./assets/images/close_icon.png 2x" alt="" class="card-2close icon__close">
+                            <div class="js-card__text2">
+                                <div class="card-info__title">
+                                    <h2>PHÁT TRIỂN KỸ NĂNG CHUYÊN MÔN</h2>
+                                    <p>Định hình được về tư duy cho TTS, đâu là ưu điểm và nhược điểm về mặt tư duy đặc
+                                        biệt là
+                                        về tư duy logic và đa chiều
+                                        Rèn luyện khả năng tư duy logic và trao đổi thông tin qua các thử thách</p>
+                                </div>
+                                <div class="card-info__text">
+                                    <h3>Tư duy logic</h3>
+                                    <p>Xác định được logic vấn đề</p>
+
+                                    <h3>Tư duy đa chiều</h3>
+                                    <p>Tư duy dưới nhiều góc độ để hiểu được vấn đề ở mức cơ bản, từ đó có định hướng
+                                        công việc phù hợp</p>
+
+                                    <h3>Tư duy thiết kế</h3>
+                                    <p>Lấy con người làm trung tâm, đề cao trải nghiệm của người dùng, có minh họa trực
+                                        quan và đề cao trực giác một cách có hệ thống</p>
+
+                                    <h3>Tư duy tổng thể</h3>
+                                    <p>Khái quát hóa vấn đề một cách tổng thể để nhìn nhận được sự tương quan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="js-card" id="card-3">
+                    <div class="card-info">
+                        <div class="card-info__content">
+                            <img srcset="./assets/images/close_icon.png 2x" alt="" class="card-3close icon__close">
+                            <div class="js-card__text3">
+                                <div class="card-info__title">
+                                    <h2>PHÁT TRIỂN CÁC KỸ NĂNG MỀM</h2>
+                                    <p>Định hình được về tư duy cho TTS, đâu là ưu điểm và nhược điểm về mặt tư duy đặc
+                                        biệt là
+                                        về tư duy logic và đa chiều
+                                        Rèn luyện khả năng tư duy logic và trao đổi thông tin qua các thử thách</p>
+                                </div>
+                                <div class="card-info__text">
+                                    <h3>Tư duy logic</h3>
+                                    <p>Xác định được logic vấn đề</p>
+
+                                    <h3>Tư duy đa chiều</h3>
+                                    <p>Tư duy dưới nhiều góc độ để hiểu được vấn đề ở mức cơ bản, từ đó có định hướng
+                                        công việc phù hợp</p>
+
+                                    <h3>Tư duy thiết kế</h3>
+                                    <p>Lấy con người làm trung tâm, đề cao trải nghiệm của người dùng, có minh họa trực
+                                        quan và đề cao trực giác một cách có hệ thống</p>
+
+                                    <h3>Tư duy tổng thể</h3>
+                                    <p>Khái quát hóa vấn đề một cách tổng thể để nhìn nhận được sự tương quan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="js-card" id="card-4">
+                    <div class="card-info">
+                        <div class="card-info__content">
+                            <img srcset="./assets/images/close_icon.png 2x" alt="" class="card-4close icon__close">
+                            <div class="js-card__text4">
+                                <div class="card-info__title">
+                                    <h2>KỸ NĂNG CHUNG TRONG CÔNG VIỆC</h2>
+                                    <p>Định hình được về tư duy cho TTS, đâu là ưu điểm và nhược điểm về mặt tư duy đặc
+                                        biệt là
+                                        về tư duy logic và đa chiều
+                                        Rèn luyện khả năng tư duy logic và trao đổi thông tin qua các thử thách</p>
+                                </div>
+                                <div class="card-info__text">
+                                    <h3>Tư duy logic</h3>
+                                    <p>Xác định được logic vấn đề</p>
+
+                                    <h3>Tư duy đa chiều</h3>
+                                    <p>Tư duy dưới nhiều góc độ để hiểu được vấn đề ở mức cơ bản, từ đó có định hướng
+                                        công việc phù hợp</p>
+
+                                    <h3>Tư duy thiết kế</h3>
+                                    <p>Lấy con người làm trung tâm, đề cao trải nghiệm của người dùng, có minh họa trực
+                                        quan và đề cao trực giác một cách có hệ thống</p>
+
+                                    <h3>Tư duy tổng thể</h3>
+                                    <p>Khái quát hóa vấn đề một cách tổng thể để nhìn nhận được sự tương quan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="js-card" id="card-5">
+                    <div class="card-info">
+                        <div class="card-info__content">
+                            <img srcset="./assets/images/close_icon.png 2x" alt="" class="card-5close icon__close">
+                            <div class="js-card__text5">
+                                <div class="card-info__title">
+                                    <h2>Tuần thử thách đầu tiên</h2>
+                                    <p>Định hình được về tư duy cho TTS, đâu là ưu điểm và nhược điểm về mặt tư duy đặc
+                                        biệt là
+                                        về tư duy logic và đa chiều
+                                        Rèn luyện khả năng tư duy logic và trao đổi thông tin qua các thử thách</p>
+                                </div>
+                                <div class="card-info__text">
+                                    <h3>Tư duy logic</h3>
+                                    <p>Xác định được logic vấn đề</p>
+
+                                    <h3>Tư duy đa chiều</h3>
+                                    <p>Tư duy dưới nhiều góc độ để hiểu được vấn đề ở mức cơ bản, từ đó có định hướng
+                                        công việc phù hợp</p>
+
+                                    <h3>Tư duy thiết kế</h3>
+                                    <p>Lấy con người làm trung tâm, đề cao trải nghiệm của người dùng, có minh họa trực
+                                        quan và đề cao trực giác một cách có hệ thống</p>
+
+                                    <h3>Tư duy tổng thể</h3>
+                                    <p>Khái quát hóa vấn đề một cách tổng thể để nhìn nhận được sự tương quan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/general.js"></script>
+    <script src="./assets/js/styleCss.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/responsive.js"></script>
+    <script src="./assets/js/card.js"></script>
+</body>
+
+</html>
