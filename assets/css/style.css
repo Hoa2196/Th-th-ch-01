@@ -15,7 +15,6 @@
     /* width: 1200px; */
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 p,
@@ -45,6 +44,8 @@ h2 {
     margin: 0 auto;
 
 }
+
+/* chữ hiển thị trên 1 hàng */
 .header-menu__item {
     display: inline-block;
 }
@@ -68,24 +69,6 @@ h2 {
     display: none;
 }
 
-.header__overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: none;
-    animation:  fadeIn linear 0.2s;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    } to {
-        opacity: 1;
-    }
-}
 
 /* Phần main */
 #main {
@@ -104,6 +87,7 @@ h2 {
     align-items: center;
 }
 
+/* Phần ảnh avatar */
 #title-image {
     width: 33.333%;
     padding: 50px 10px;
@@ -117,11 +101,13 @@ h2 {
     transition-property: transform;
 }
 
+/* Khi hover vào ảnh avatar */
 #title-image:hover {
     transform: translateY(-10px);
     background-image: linear-gradient(to top, #e94e4e, #b40006);
 }
 
+/* Phần text title, tên, tuổi */
 #title-image__text {
     color: #fff;
     font-size: 1.4rem;
@@ -137,6 +123,7 @@ h2 {
     border: 3px solid #fff;
 }
 
+/* Phần chữ xin chào, tôi là Hoa */
 #title-info {
     width: 70%;
     text-align: center;
@@ -158,6 +145,7 @@ h2 {
     cursor: pointer;
 }
 
+/* CSS phần button title */
 .title-info__btn--text {
     padding: 8px 35px;
     background-image: linear-gradient(to top, #ff6968, #cf2128);
@@ -178,9 +166,9 @@ h2 {
     background-image: linear-gradient(to top, #be2323, #b40006);
 }
 
-
 /* Phần info */
 
+/* css phần khung, nền */
 #info {
     box-shadow: 2px 2px 12px rgba(132, 132, 132, 0.453);
     padding: 20px 40px;
@@ -194,6 +182,27 @@ h2 {
     text-align: justify;
 }
 
+
+/* css phần design */
+#design {
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+.design-heading {
+    padding: 0 40px;
+}
+.design-img {
+    column-count: 3;
+    /* text-align: center; */
+    /* column-gap: 10px; */
+}
+.design-img__item {
+    width: 100%;
+    break-inside: avoid;
+    margin-top: 12px;
+}
+
+/* Css phần skill, kỹ năng */
 #skill {
     font-size: 1.2rem;
     margin-top: 40px;
@@ -307,6 +316,7 @@ h2 {
     stroke-dashoffset: calc(440 - (440 *45) /100);
 }
 
+/* CSS phần company */
 #company {
     background-color: #333;
     border-radius: 8px;
@@ -343,7 +353,6 @@ h2 {
 .company-card__item {
     background-color: #fff;
     border-radius: 8px;
-    /* margin: 0 12px; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -411,9 +420,7 @@ h2 {
 }
 
 
-
-
-
+/* CSS phần card chung */
 .card {
     align-items: center;
     justify-content: center;
@@ -502,6 +509,9 @@ h2 {
     }
 }
 
+
+
+/* Phần responsive */
 
 /* PC */
 @media (mix-width: 1024px) {}
@@ -605,6 +615,17 @@ h2 {
 
     .title-info__btn {
         display: block;
+    }
+    
+    .design-img {
+        column-count: 2;
+        /* text-align: center; */
+        /* column-gap: 10px; */
+    }
+    .design-img__item {
+        width: 100%;
+        break-inside: avoid;
+        margin-top: 12px;
     }
 
     .skill-info {
