@@ -18,49 +18,76 @@
 
 }
 
-
 p,
 h2 {
     line-height: 1.8;
 }
 
-
 /* CSS phần header */
-
 
 /* phần nền, chiều cao header */
 #header {
-    /* width: 100vw; */
     max-width: 100%;
     height: 80px;
     background-color: #333;
     font-size: 1.2rem;
     position: fixed;
-    z-index: 50000;
+    z-index: 10000;
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0
+    overflow: hidden;
 }
 
 /* Phần menu, danh sách ul */
 #header-menu {
-    list-style: none;
     width: 1200px;
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
     margin: 0 auto;
+
+}
+.header-menu__item {
+    display: inline-block;
 }
 
 /* Chỉnh text ở menu, bỏ gạch chân, đổi màu, căn giữa */
 .header-menu__item--link {
-    text-decoration: none;
     color: #fff;
-    padding: 40px;
+    text-decoration: none;
     line-height: 80px;
+    padding: 0 24px;
+    display: block;
 }
 
+/* icon navbar khi kích vào thanh menu hiện ra */
+.header-mobile__button {
+    float: right;
+    padding: 0 25px;
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    display: none;
+}
+
+.header__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation:  fadeIn linear 0.2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+/* Phần main */
 #main {
     width: 1200px;
     max-width: 100%;
@@ -387,8 +414,6 @@ h2 {
 
 
 
-
-
 .card {
     align-items: center;
     justify-content: center;
@@ -479,7 +504,7 @@ h2 {
 
 
 /* PC */
-@media (mix-width: 64em) {}
+@media (mix-width: 1024px) {}
 
 /* tablet & mobile*/
 @media (max-width: 63.9375em) {
@@ -494,9 +519,15 @@ h2 {
     #timeline {
         padding: 20px;
     }
+    #header {
+        
+    }
+    .header-menu__item {
+        display: block;
+    }
 
-    #header-menu {
-        display: none;
+    .header-mobile__button {
+        display: block;
     }
 
     .card-info__title h2 {
@@ -549,9 +580,8 @@ h2 {
     }
 }
 
-
 /* tablet */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
+@media (min-width: 740px) and (max-width: 1023px) {
     #company-card {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0 20px;
@@ -564,7 +594,7 @@ h2 {
 }
 
 /* mobile */
-@media (max-width: 46.1875em) {
+@media (max-width: 740px) {
     .title-info__text1 {
         text-align: justify;
     }
