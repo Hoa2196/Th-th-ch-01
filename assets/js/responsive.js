@@ -1,5 +1,5 @@
 
-// Phần responsive timeline
+// Phần responsive timeline, các phần còn lại responsive bằng css
 
 // mobile
 let mb = window.matchMedia("(max-width: 572px)");

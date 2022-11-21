@@ -39,7 +39,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 01</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-6">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>
                                                 Lập 01 website giới thiệu về bản thân và thông tin quá trình thực tập tại I&E Vietnam
@@ -48,7 +48,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card6-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 02</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-7">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Sử dụng HTML, CSS, Javascript viết
                                                 minigame theo chủ đề game bốc thăm
@@ -72,7 +72,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card7-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 03</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-8">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Sử dụng quy chuẩn code của công ty được đào tạo để 
                                                 thiết kế 02 giao diện theo mẫu thiết kế được cung cấp.
@@ -96,7 +96,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card8-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 04</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-9">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Sử dụng INEVO để thiết kế 01 website động
                                                 lấy dữ liệu thực tế từ hệ thống nội bộ ra website, theo bản thân thiết kế đã được cung cấp
@@ -120,7 +120,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card9-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -135,7 +135,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 05</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-10">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Sử dụng kiến thức đã được đào tạo, bổ sung các trang con 
                                                 và tính năng nâng cao cho website tại Thử thách 04. Tạo 01 website mới với đầy đủ tính
@@ -145,7 +145,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card10-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -160,7 +160,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 06</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-11">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Thiết kế giao diện phần mềm trên hệ thống nội bộ INEVO
                                                 theo bản thiết kế được cung cấp
@@ -169,7 +169,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card11-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ function addHtmlInTimeline() {
                                         <div class="timeline-info__title">
                                             <h2>Bài thử thách 07</h2>
                                         </div>
-                                        <div class="timeline-info__text">
+                                        <div class="timeline-info__text card-12">
                                             <div class="timeline-info__text--name">
                                                 <p><strong>Tên thử thách: </strong>Sử dụng Bảng quản trị trên hệ thống mạng nội bộ INEVO
                                                 để thực hiện phần mềm quản lý bài viết của bản thân trên hệ thống INEVO
@@ -193,7 +193,7 @@ function addHtmlInTimeline() {
                                             <div class="timeline-info__text--link" title="click vào đây">
                                                 <a href="#">Link thử thách</a>
                                             </div>
-                                            <div class="timeline-btn">
+                                            <div class="timeline-btn card12-btn">
                                                 <p>Xem chi tiết</p>
                                             </div>
                                         </div>
