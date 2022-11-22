@@ -161,6 +161,17 @@ h2 {
     transition-duration: .3s;
     transition-timing-function: ease-out;
     transition-property: transform;
+    animation-name: color;  
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes color {
+    from {
+      background-image: linear-gradient(to top, #ff6968, #cf2128);
+  }  to {
+      background-image: linear-gradient(to top, #e94e4e, #b40006);
+  }
 }
 
 /* khi hover vào button đổi màu */
@@ -526,7 +537,7 @@ h2 {
 @media (mix-width: 1024px) {}
 
 /* tablet & mobile*/
-@media (max-width: 63.9375em) {
+@media (max-width: 1023px) {
     html {
         font-size: 110%;
     }
@@ -613,7 +624,7 @@ h2 {
 }
 
 /* mobile */
-@media (max-width: 740px) {
+@media (max-width: 739px) {
     .title-info__text1 {
         text-align: justify;
     }

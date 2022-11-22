@@ -2,9 +2,9 @@
 // Phần responsive timeline, các phần còn lại responsive bằng css
 
 // mobile
-let mb = window.matchMedia("(max-width: 572px)");
+let mb = window.matchMedia("(max-width: 739px)");
 // table
-let tb = window.matchMedia("(min-width: 573px) and (max-width: 920px)");
+let tb = window.matchMedia("(min-width: 740px) and (max-width: 1023px)");
 
 function myFunction(x) {
     if (mb.matches) { // If moblie
