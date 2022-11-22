@@ -11,12 +11,13 @@
     overflow: hidden;
 }
 
+/* căn giữa tất cả */
 #container {
-    /* width: 1200px; */
     max-width: 100%;
     margin: 0 auto;
 }
 
+/* dãn dòng chữ  */
 p,
 h2 {
     line-height: 1.8;
@@ -117,6 +118,7 @@ h2 {
     padding: 15px;
 }
 
+/* kích thước, bo ảnh avatar thành hình tròn */
 #title-image__avatar {
     border-radius: 50%;
     width: 70%;
@@ -161,6 +163,7 @@ h2 {
     transition-property: transform;
 }
 
+/* khi hover vào button đổi màu */
 .title-info__btn--text:hover {
     transform: translateY(-10px);
     background-image: linear-gradient(to top, #be2323, #b40006);
@@ -247,6 +250,7 @@ h2 {
     z-index: 1000;
 }
 
+/* phần số ở giữa hình tròn */
 .skill-card__box--number {
     position: absolute;
     top: 12px;
@@ -268,6 +272,7 @@ h2 {
     transition: 0.5s;
 }
 
+/* khi hover vào card thì chữ phóng to */
 .skill-card:hover .number-text {
     color: rgb(236, 35, 34);
     font-size: 50px;
@@ -298,6 +303,8 @@ h2 {
     text-transform: uppercase;
 }
 
+
+/* tính phần màu cam chạy theo % */
 #card-circle2 {
     stroke-dasharray: 440;
     stroke: #ec2322;
@@ -350,6 +357,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* phần card, chỉnh các item căn theo cột */
 .company-card__item {
     background-color: #fff;
     border-radius: 8px;
@@ -358,6 +366,7 @@ h2 {
     flex-direction: column;
 }
 
+/* phần button xem chi tiết */
 .company-btn {
     margin-top: auto;
     margin-bottom: 0;
@@ -420,7 +429,7 @@ h2 {
 }
 
 
-/* CSS phần card chung */
+/* CSS phần card chung, khi click vào button card này mới hiện lên */
 .card {
     align-items: center;
     justify-content: center;
