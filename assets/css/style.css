@@ -222,8 +222,6 @@ h2 {
     margin-top: 40px;
 }
 
-.skill-ds
-
 #skill-text__heading {
     padding: 0 40px;
 }
@@ -316,12 +314,31 @@ h2 {
     text-transform: uppercase;
 }
 
+/* tính phần màu cam chạy theo % của skill Ds*/
+#card-circle7 {
+    stroke-dasharray: 440;
+    stroke: #ec2322;
+    stroke-dashoffset: calc(440 - (440 *90) /100);
+}
 
-/* tính phần màu cam chạy theo % */
+#card-circle8 {
+    stroke-dasharray: 440;
+    stroke: #ec2322;
+    stroke-dashoffset: calc(440 - (440 *90) /100);
+}
+
+#card-circle9 {
+    stroke-dasharray: 440;
+    stroke: #ec2322;
+    stroke-dashoffset: calc(440 - (440 *80) /100);
+}
+
+
+/* tính phần màu cam chạy theo % của skill it*/
 #card-circle2 {
     stroke-dasharray: 440;
     stroke: #ec2322;
-    stroke-dashoffset: calc(440 - (440 *85) /100);
+    stroke-dashoffset: calc(440 - (440 *80) /100);
 }
 
 #card-circle4 {
