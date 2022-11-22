@@ -186,7 +186,7 @@ h2 {
 #info {
     box-shadow: 2px 2px 12px rgba(132, 132, 132, 0.453);
     padding: 20px 40px;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 8px;
 }
 
@@ -202,9 +202,7 @@ h2 {
     font-size: 1.2rem;
     margin-top: 40px;
 }
-.design-heading {
-    padding: 0 40px;
-}
+
 .design-img {
     column-count: 3;
     /* text-align: center; */
@@ -219,11 +217,7 @@ h2 {
 /* Css phần skill, kỹ năng */
 #skill {
     font-size: 1.2rem;
-    margin-top: 40px;
-}
-
-#skill-text__heading {
-    padding: 0 40px;
+    margin-top: 80px;
 }
 
 .skill-info {
@@ -355,10 +349,8 @@ h2 {
 
 /* CSS phần company */
 #company {
-    background-color: #333;
     border-radius: 8px;
-    margin-top: 40px;
-    padding: 40px;
+    margin-top: 60px;
     font-size: 1.2rem;
     line-height: 1.5;
 }
@@ -368,7 +360,7 @@ h2 {
 }
 
 .company-text {
-    color: #fff;
+    color: #333;
     margin-bottom: 30px;
 }
 
@@ -376,10 +368,13 @@ h2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    grid-gap: 0 20px;
+    grid-gap: 0 30px;
+    padding-top: 20px;
 }
 
 .company-card__text {
+    padding: 25px 15px 0 15px ;
+    color: #333;
     margin-bottom: 15px;
 }
 
@@ -389,17 +384,18 @@ h2 {
 
 /* phần card, chỉnh các item căn theo cột */
 .company-card__item {
+    overflow: hidden;
     background-color: #fff;
     border-radius: 8px;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 1px 6px rgba(77, 77, 77, 0.453);
+
 }
 
 /* phần button xem chi tiết */
 .company-btn {
-    margin-top: auto;
-    margin-bottom: 0;
+    margin: auto 15px 20px 15px;
     padding: 8px;
     background: #ccc;
     border-radius: 10px;
@@ -416,17 +412,16 @@ h2 {
 }
 
 #company-logo__img {
-    width: 30%;
+    width: 25%;
     margin-bottom: 30px;
 }
 
 /* footer */
 #footer {
-    /* width: 100vw; */
     max-width: 100%;
     background-color: #333;
     font-size: 1rem;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 #footer-info {
@@ -644,6 +639,9 @@ h2 {
 
 /* mobile */
 @media (max-width: 739px) {
+    h2 {
+        text-align: center;
+    }
     .title-info__text1 {
         text-align: justify;
     }

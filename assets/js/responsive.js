@@ -13,6 +13,7 @@ function myFunction(x) {
         // kích thước card timeline thành 100%
         let styleCssTimelineCardBack = new StyleCss();
         styleCssTimelineCardBack.setWidth('100%');
+        styleCssTimelineCardBack.setMargin('20px');
         cssForAll('.time-card__area', styleCssTimelineCardBack);
 
 
@@ -35,6 +36,7 @@ function myFunction(x) {
         // kích thước card timeline thành 100%
         let styleCssTimelineCardBack = new StyleCss();
         styleCssTimelineCardBack.setWidth('100%');
+        styleCssTimelineCardBack.setMargin('20px');
         cssForAll('.time-card__area', styleCssTimelineCardBack);
 
         // Cho hình tròn ở giữa về bên trái
@@ -55,7 +57,8 @@ function myFunction(x) {
 
         // kích thước card timeline chia đều 2 cột
         let styleCssTimelineCardBack = new StyleCss();
-        styleCssTimelineCardBack.setWidth('calc(50% - 140px)');
+        styleCssTimelineCardBack.setWidth('calc(50% - 70px)');
+        styleCssTimelineCardBack.setMargin('0');
         cssForAll('.time-card__area', styleCssTimelineCardBack);
 
         // Phần line đỏ ở giữa
@@ -66,8 +69,11 @@ function myFunction(x) {
         // Cho hình tròn bên trái ở giữa 
         let timelineIconLeft = document.querySelectorAll('.card-left .time-card__area .timeline-icon');
         for (let i = 0; i < timelineIconLeft.length; i++) {
-            timelineIconLeft[i].style.left = '-135px';
+            timelineIconLeft[i].style.right = '-104px';
+            timelineIconLeft[i].style.top = '64px';
             timelineIconLeft[i].style.display = 'block';
+            // timelineIconLeft[i].style.right = 'unset';
+
 
         }
 
@@ -75,9 +81,9 @@ function myFunction(x) {
         let timelineIconRight = document.querySelectorAll('.card-right .time-card__area .timeline-icon');
         for (let i = 0; i < timelineIconRight.length; i++) {
             timelineIconRight[i].style.display = 'block';
-            timelineIconRight[i].style.top = '15px';
-            timelineIconRight[i].style.right = '-135px';
-            timelineIconRight[i].style.left = 'unset';
+            timelineIconRight[i].style.top = '64px';
+            timelineIconRight[i].style.left = '-104px';
+            timelineIconRight[i].style.right = 'unset';
         }
     }
 }
